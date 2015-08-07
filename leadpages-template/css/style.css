@@ -5640,7 +5640,7 @@ button.close {
   background-color: #fffff9; }
 
 .footer {
-  background-color: #ffffd1; }
+  background-color: #c9d9e0; }
 
 /* sitewide
 ---------------------------------------------------------- */
@@ -5693,7 +5693,7 @@ img {
   float: left; }
 
 body {
-  background: #ffffff;
+  background: #fffffe;
   color: #111111;
   font-size: 18px;
   font-family: "Noto Sans", Arial, helvetica, sans-serif;
@@ -6077,6 +6077,7 @@ p {
 /* Footer
 ---------------------------------------------------------------------------------------------------- */
 .footer {
+  margin-top: 30px;
   padding-top: 30px;
   padding-bottom: 30px;
   color: #595757;

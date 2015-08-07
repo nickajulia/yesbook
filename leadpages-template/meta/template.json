@@ -35,7 +35,7 @@
                 "border-style": "solid;",
                 "font-family": "Helvetica, Arial, sans-serif",
                 "font-size": "14pt;",
-                "letter-spacing": "-0.1em;"
+                "letter-spacing": "0em;"
             },
             "html": "Free Instant Access &raquo;"
         },
@@ -43,7 +43,7 @@
             "css": {
                 "font-family": "Helvetica, Arial, sans-serif",
                 "font-size": "12pt;",
-                "letter-spacing": "-0.1em;"
+                "letter-spacing": "0em;"
             },
             "html": "<div><i class=\"icon-lock\"></i>We hate SPAM and promise to keep your email address safe. </div>"
         }

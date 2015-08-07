@@ -1054,6 +1054,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/leadpages-template\/img\/bulletimg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1768,
+		"inputAbbreviatedPath": "\/leadpages-template\/img\/bulletimg.png",
+		"outputAbbreviatedPath": "\/leadpages-template\/img\/bulletimg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/leadpages-template\/img\/checkmark.png": {
 		"fileType": 32768,
 		"ignore": 0,

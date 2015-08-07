@@ -27,6 +27,11 @@ $black: #000001;
 $bulletTop:#4FA5FF;
 $bulletBtm:#0068D9;
 
+
+
+
+$bodyBg:#fffffe;
+
 /*--- Buttons--*/
 $buttonBg:#B70000;
 $buttonBgHover:#B70002;
@@ -145,7 +150,7 @@ $section10Bg:#fffff9;
 
 /*--- Footer--*/
 $dividerFooter: #d4d4d6;
-$footerBg:#ffffd1;
+$footerBg:#c9d9e0;
 
 
 
@@ -269,7 +274,7 @@ img {
 }
 
 body {
-	background: #ffffff;
+	background: $bodyBg;
 	color: #111111;
 	font-size: 18px;
 	font-family: $bodyFamily;
@@ -668,6 +673,7 @@ width: 300px;
 
 
 .footer{
+  margin-top: 30px;
  padding-top: 30px;
   padding-bottom: 30px;
  color: $pColor;

@@ -1164,6 +1164,15 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/leadpages-template\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/leadpages-template\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/leadpages-template\/js\/functions.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -1181,17 +1190,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/leadpages-template\/js\/html5shiv.js",
 		"outputAbbreviatedPath": "\/leadpages-template\/js\/min\/html5shiv-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/leadpages-template\/js\/min\/functions-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/leadpages-template\/js\/min\/functions-min.js",
-		"outputAbbreviatedPath": "\/leadpages-template\/js\/min\/min\/functions-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,

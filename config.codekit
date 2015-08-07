@@ -1043,13 +1043,13 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/leadpages-template\/img\/book.png": {
-		"fileType": 32768,
+	"\/leadpages-template\/img\/book.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 42778,
-		"inputAbbreviatedPath": "\/leadpages-template\/img\/book.png",
-		"outputAbbreviatedPath": "\/leadpages-template\/img\/book.png",
+		"initialSize": 51956,
+		"inputAbbreviatedPath": "\/leadpages-template\/img\/book.jpg",
+		"outputAbbreviatedPath": "\/leadpages-template\/img\/book.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

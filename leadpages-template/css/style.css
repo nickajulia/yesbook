@@ -5592,12 +5592,11 @@ button.close {
 /*--- Font Variables--*/
 /*--- Other By section--*/
 /*--header--*/
+/*-----hero ---*/
 /*-----section 1---*/
 /*--- Section 2--*/
 /*-- Section 2 After --*/
 /*--- Section 3--*/
-/*--- Section 4--*/
-/*--- Section 5--*/
 /* --- Section 5 Ribbon 2 ----*/
 /*-- Section 6--*/
 /*--- Section 7--*/
@@ -5606,38 +5605,20 @@ button.close {
 /*--- Section 10 ---*/
 /*--- Footer--*/
 /*---- background colors applied ----*/
-.headerBg {
-  background-color: #fffff1; }
+.header {
+  background-color: #F4F5F4; }
 
-.section1WrapBg {
-  background-color: #fffff2; }
+.headlineWrap {
+  background-color: #F4F5F5; }
 
-.section4 {
-  background-color: #fffff4; }
+.section1 {
+  background-color: #F4F5F1; }
 
 .section2 {
-  background-color: #fffffe; }
+  background-color: #F4F5F2; }
 
 .section2After {
   background-color: #fffff6; }
-
-.section5 {
-  background-color: #ECF4FE; }
-
-.section6 {
-  background-color: #fffff5; }
-
-.section7 {
-  background-color: #ECF4FB; }
-
-.section8 {
-  background-color: #fffff7; }
-
-.section9 {
-  background-color: #fffff8; }
-
-.section10 {
-  background-color: #fffff9; }
 
 .footer {
   background-color: #c9d9e0; }
@@ -5814,7 +5795,7 @@ p {
 
 /* Site & Header
 ---------------------------------------------------------------------------------------------------- */
-.pageContainerInner {
+.sectionInner {
   width: 70%;
   margin: auto; }
 
@@ -5867,7 +5848,7 @@ p {
   padding: .75em 2em .75em 2em;
   background: #B70000;
   display: inline-block;
-  color: #fffffa !important;
+  color: #fffffd !important;
   font-size: 22px;
   font-weight: normal;
   line-height: 1.2em;
@@ -5891,6 +5872,9 @@ p {
 /* Hero
 ---------------------------------------------------------------------------------------------------- */
 .hero {
+  background-color: #F4F5F0; }
+
+.heroInner {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -5986,7 +5970,8 @@ p {
 ---------------------------------------------------------------------------------------------------- */
 .section1 {
   padding-top: 30px;
-  padding-bottom: 30px; }
+  padding-bottom: 30px;
+  background-color: #F4F5F1; }
 
 .section1Lists {
   display: -webkit-box;
@@ -6024,7 +6009,8 @@ p {
 ---------------------------------------------------------------------------------------------------- */
 .section2 {
   padding-top: 30px;
-  padding-bottom: 30px; }
+  padding-bottom: 30px;
+  background-color: #F4F5F2; }
 
 .section2TestiWrap {
   display: -webkit-box;
@@ -6072,12 +6058,12 @@ p {
 ---------------------------------------------------------------------------------------------------- */
 .section3 {
   padding-top: 30px;
-  padding-bottom: 30px; }
+  padding-bottom: 60px;
+  background-color: #F4F5F3; }
 
 /* Footer
 ---------------------------------------------------------------------------------------------------- */
 .footer {
-  margin-top: 30px;
   padding-top: 30px;
   padding-bottom: 30px;
   color: #595757;

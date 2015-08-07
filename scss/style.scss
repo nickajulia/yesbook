@@ -87,15 +87,18 @@ $divider1: #47a562;
 
 
 /*--header--*/
-$headerBg:#fffff1;
+$headerBg:#F4F5F4;
 
+/*-----hero ---*/
+$headlineWrapBg:#F4F5F5;
+$heroBg:#F4F5F0;
 /*-----section 1---*/
-$section1Bg:#fffff2;
+$section1Bg:#F4F5F1;
 
 $section1TextWrap:#ffffd2;
 
 /*--- Section 2--*/
-$section2Bg:#fffffe;
+$section2Bg:#F4F5F2;
 $section2Border:#d4d4d4;
 
 
@@ -103,20 +106,7 @@ $section2Border:#d4d4d4;
 $section2AfterBg:#fffff6;
 
 /*--- Section 3--*/
-$Section3GridItemBorder:#ECF4FF;
-$section3GridBg:#DEEEFB;
-$section3Bg:#fffff3;
-
-/*--- Section 4--*/
-$section4Bg:#fffff4;
-$section4Border:#b1ccb6;
-
-/*--- Section 5--*/
-$section5Bg:#ECF4FE;
-$ribbon: #0E54A7;
-$ribbonAfter:#063165;
-$section5H1:#5790ed;
-
+$section3Bg:#F4F5F3;
 
 /* --- Section 5 Ribbon 2 ----*/
 
@@ -156,19 +146,21 @@ $footerBg:#c9d9e0;
 
 /*---- background colors applied ----*/
 
-.headerBg{
+.header{
   background-color: $headerBg;
 }
-.section1WrapBg{
+
+.headlineWrap{
+  background-color: $headlineWrapBg;
+}
+
+.section1{
   background-color: $section1Bg;
 }
 #section1TextWrap{
 //background-color: $section1TextWrap;
 }
-.section4
-{
-  background-color: $section4Bg;
-}
+
 
 .section2{
   background-color: $section2Bg;
@@ -179,25 +171,7 @@ $footerBg:#c9d9e0;
 .section3{
   //background-color: $section3Bg;
 }
-.section5{
-  background-color: $section5Bg;
-}
-.section6{
-  background-color: $section6Bg;
-}
-.section7{
-  background-color: $section7Bg;
-}
-.section8{
-  background-color: $section8Bg;
-}
 
-.section9{
-  background-color: $section9Bg;
-}
-.section10{
-  background-color: $section10Bg;
-}
 .footer{
   background-color: $footerBg;
 }
@@ -425,6 +399,10 @@ color: $black;
 /* Site & Header
 ---------------------------------------------------------------------------------------------------- */
 .pageContainerInner{
+ // width: 70%;
+  //margin:auto;
+}
+.sectionInner{
   width: 70%;
   margin:auto;
 }
@@ -487,7 +465,7 @@ color: $black;
   padding:.75em 2em .75em 2em;
   background:$buttonBg;
   display:inline-block;
-  color:#fffffa!important;
+  color:$buttonFontColor!important;
   font-size: 22px;
   font-weight:normal;
   line-height:1.2em;
@@ -514,9 +492,13 @@ color: $black;
 /* Hero
 ---------------------------------------------------------------------------------------------------- */
 .hero{
+    background-color: $heroBg;
+}
+.heroInner{
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .heroLeft{
@@ -589,6 +571,7 @@ width: 300px;
 .section1{
   padding-top: 30px;
   padding-bottom: 30px;
+  background-color: $section1Bg;
 }
 
 .section1Lists{
@@ -611,6 +594,7 @@ width: 300px;
 .section2{
   padding-top: 30px;
   padding-bottom: 30px;
+  background-color: $section2Bg;
 }
 .section2TestiWrap{
   display: flex;
@@ -662,7 +646,8 @@ width: 300px;
 ---------------------------------------------------------------------------------------------------- */
 .section3{
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 60px;
+  background-color: $section3Bg;
 }
 
 
@@ -673,7 +658,6 @@ width: 300px;
 
 
 .footer{
-  margin-top: 30px;
  padding-top: 30px;
   padding-bottom: 30px;
  color: $pColor;

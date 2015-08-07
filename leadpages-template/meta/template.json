@@ -1,6 +1,6 @@
 {
-	"id": "Get the Guide",
-	"name": "Get the Guide", 
+	"id": "yes book",
+	"name": "yes book", 
 	"mobile": true, 
 	"notes": "version 1.101", 
 	"syntax": 4, 
@@ -11,8 +11,64 @@
 
         {
               "type": "color",
-              "name": "Header Background Overlay Color",
-              "find": "#00000A"
+              "name": "Header Bg ",
+              "find": "#F4F5F4"
+          },
+            {
+              "type": "color",
+              "name": "Headline section Bg ",
+              "find": "#F4F5F5"
+          },
+          {
+              "type": "color",
+              "name": "hero Bg ",
+              "find": "#F4F5F0"
+          },
+          {
+              "type": "color",
+              "name": "section1 Bg ",
+              "find": "#F4F5F1"
+          },
+          {
+              "type": "color",
+              "name": "section2 Bg ",
+              "find": "#F4F5F2"
+          },
+           {
+              "type": "color",
+              "name": "section3 Bg ",
+              "find": "#F4F5F3"
+          },
+          {
+              "type": "color",
+              "name": "footer Bg ",
+              "find": "#c9d9e0"
+          },
+            {
+              "type": "color",
+              "name": "Buttons Color ",
+              "find": "#B70000"
+          },
+          {
+              "type": "color",
+              "name": "Buttons Border Color ",
+              "find": "#B70001"
+          },
+           {
+              "type": "color",
+              "name": "Buttons Hover Color ",
+              "find": "#B70002"
+          },
+          {
+              "type": "color",
+              "name": "Buttons text Color ",
+              "find": "#fffffd"
+          },
+
+            {
+              "type": "color",
+              "name": "Subhead text Color ",
+              "find": "#53727D"
           }
 
 		                ]
@@ -51,8 +107,63 @@
 	"elements": [
 		
         {
-      "id": "site-header",
+      "id": "header",
       "name": "Header Container",
+      "type": "container"
+        },
+        {
+      "id": "headlineWrap",
+      "name": "Headline Container",
+      "type": "container"
+        },
+        {
+      "id": "hero",
+      "name": "Hero Container",
+      "type": "container"
+        },
+        {
+      "id": "heroLeft",
+      "name": "Hero Left Container",
+      "type": "container"
+        },
+        {
+      "id": "heroRight",
+      "name": "Hero Right Container",
+      "type": "container"
+        },
+         {
+      "id": "section1",
+      "name": "Section1 Container",
+      "type": "container"
+        },
+         {
+      "id": "section2",
+      "name": "Section2 Container",
+      "type": "container"
+        },
+         {
+      "id": "section2Testi1",
+      "name": "section2 Testimonial 1 Container",
+      "type": "container"
+        },
+          {
+      "id": "section2Testi2",
+      "name": "section2 Testimonial 2 Container",
+      "type": "container"
+        },
+          {
+      "id": "section2Testi3",
+      "name": "section2 Testimonial 3 Container",
+      "type": "container"
+        },
+         {
+      "id": "section3",
+      "name": "Section3 Container",
+      "type": "container"
+        },
+         {
+      "id": "footer",
+      "name": "footer Container",
       "type": "container"
         },
        
@@ -62,19 +173,130 @@
 
 
         {
-      "id": "heroTitle",
-      "name": "Hero Title",
+      "id": "headline",
+      "name": "Headline Text",
       "type": "text"
         },
-    
-     
+        {
+      "id": "subhead",
+      "name": "SubHead Text",
+      "type": "text"
+        },
+    {
+      "id": "heroFormAboveBtn",
+      "name": "Above Hero Btn Text",
+      "type": "text"
+        },
+        {
+      "id": "heroBulletList",
+      "name": "Hero Bullet List Text",
+      "type": "text"
+        },
+     {
+      "id": "section1Headline",
+      "name": "section 1 Headline Text",
+      "type": "text"
+        },
 
+
+         {
+      "id": "section1LeftBullet1Text",
+      "name": "Bullet 1 Left Text",
+      "type": "text"
+        },
+        {
+      "id": "section1LeftBulleft2Text",
+      "name": "Bullet 2 Left Text",
+      "type": "text"
+        },
+        {
+      "id": "section1LeftBullet3Text",
+      "name": "Bullet 3 Left Text",
+      "type": "text"
+        },
+          {
+      "id": "section1RightBullet1Text",
+      "name": "Bullet 1 Right Text",
+      "type": "text"
+        },
+        {
+      "id": "section1RightBullet2Text",
+      "name": "Bullet 2 Right Text",
+      "type": "text"
+        },
+          {
+      "id": "section1RightBullet3Text",
+      "name": "Bullet 3 Right Text",
+      "type": "text"
+        },
+    {
+      "id": "section2TestiHeadline",
+      "name": "section2 Testi Headline Text",
+      "type": "text"
+        },
+        {
+      "id": "testiName1",
+      "name": "Testimonial 1 name text",
+      "type": "text"
+        },
+          {
+      "id": "testiName2",
+      "name": "Testimonial 2 name text",
+      "type": "text"
+        },
+          {
+      "id": "testiName3",
+      "name": "Testimonial 3 name text",
+      "type": "text"
+        },
+                  {
+      "id": "testiBlockquote1",
+      "name": "Testimonial 1 blockquote text",
+      "type": "text"
+        },
+
+                  {
+      "id": "testiBlockquote2",
+      "name": "Testimonial 2 blockquote text",
+      "type": "text"
+        },
+
+                  {
+      "id": "testiBlockquote3",
+      "name": "Testimonial 3 blockquote text",
+      "type": "text"
+        },
+            {
+      "id": "section3Headline",
+      "name": "Section 3 Headline text",
+      "type": "text"
+        },
+              {
+      "id": "footerText",
+      "name": "footer text",
+      "type": "text"
+        },
 
 
         
         {
-      "id": "footerLink5",
-      "name": "Footer Link5",
+      "id": "clipLink1",
+      "name": "Clip link 1",
+      "type": "link"
+        },
+        {
+      "id": "clipLink2",
+      "name": "Clip link 12",
+      "type": "link"
+        },
+         {
+      "id": "heroFormButton",
+      "name": "Hero Btn",
+      "type": "link"
+        },
+         {
+      "id": "section3Button",
+      "name": "Section 3 Btn",
       "type": "link"
         },
 
@@ -83,14 +305,63 @@
 
 
          {
-      "id": "header-bg",
-      "name": "Header Background",
-      "type": "image"
+      "id": "logo",
+      "name": "Logo image-link",
+      "type": "image-link"
+        },
+
+         {
+      "id": "clipImgLink",
+      "name": "play button link",
+      "type": "image-link"
         },
            
 
-
-
+   {
+      "id": "leftBulletImg1",
+      "name": "left Bullet Img 1",
+      "type": "image"
+        },
+        {
+      "id": "leftBulletImg2",
+      "name": "left Bullet Img 2",
+      "type": "image"
+        },
+        {
+      "id": "leftBulletImg3",
+      "name": "left Bullet Img 3",
+      "type": "image"
+        },
+   {
+      "id": "RightBulletImg1",
+      "name": "Right Bullet Img 1",
+      "type": "image"
+        },
+        {
+      "id": "RightBulletImg2",
+      "name": "Right Bullet Img 2",
+      "type": "image"
+        },
+        {
+      "id": "RightBulletImg3",
+      "name": "Right Bullet Img 3",
+      "type": "image"
+        },
+          {
+      "id": "testiImg1",
+      "name": "Testimonial Img 1",
+      "type": "image"
+        },
+        {
+      "id": "testiImg2",
+      "name": "Testimonial Img 2",
+      "type": "image"
+        },
+        {
+      "id": "testiImg3",
+      "name": "Testimonial Img 3",
+      "type": "image"
+        },
 
 
 

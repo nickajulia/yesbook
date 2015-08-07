@@ -2,9 +2,9 @@
 	"id": "yes book",
 	"name": "yes book", 
 	"mobile": true, 
-	"notes": "version 1.101", 
+	"notes": "version 1.102", 
 	"syntax": 4, 
-	"version": 1.101,
+	"version": 1.102,
 	"style": {
 		"html": "",
 		"replacements": [

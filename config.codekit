@@ -1076,61 +1076,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/leadpages-template\/img\/logo1.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 5455,
-		"inputAbbreviatedPath": "\/leadpages-template\/img\/logo1.png",
-		"outputAbbreviatedPath": "\/leadpages-template\/img\/logo1.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/leadpages-template\/img\/logo2.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 8959,
-		"inputAbbreviatedPath": "\/leadpages-template\/img\/logo2.png",
-		"outputAbbreviatedPath": "\/leadpages-template\/img\/logo2.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/leadpages-template\/img\/logo3.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 10343,
-		"inputAbbreviatedPath": "\/leadpages-template\/img\/logo3.png",
-		"outputAbbreviatedPath": "\/leadpages-template\/img\/logo3.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/leadpages-template\/img\/logo4.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 10736,
-		"inputAbbreviatedPath": "\/leadpages-template\/img\/logo4.png",
-		"outputAbbreviatedPath": "\/leadpages-template\/img\/logo4.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/leadpages-template\/img\/logo5.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 12339,
-		"inputAbbreviatedPath": "\/leadpages-template\/img\/logo5.png",
-		"outputAbbreviatedPath": "\/leadpages-template\/img\/logo5.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/leadpages-template\/img\/mindheroslogo.png": {
 		"fileType": 32768,
 		"ignore": 0,

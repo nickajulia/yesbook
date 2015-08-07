@@ -1,0 +1,107 @@
+{
+	"id": "Get the Guide",
+	"name": "Get the Guide", 
+	"mobile": true, 
+	"notes": "version 1.101", 
+	"syntax": 4, 
+	"version": 1.101,
+	"style": {
+		"html": "",
+		"replacements": [
+
+        {
+              "type": "color",
+              "name": "Header Background Overlay Color",
+              "find": "#00000A"
+          }
+
+		                ]
+	},
+
+	"form": {
+        "title": {
+            "css": {
+                "font-family": "Helvetica, Arial, sans-serif",
+                "font-size": "18pt;",
+                "letter-spacing": "0em;"
+            },
+            "html": "<strong>Enter your email address below to reserve _______... it's 100% FREE!</strong>"
+        },
+        "submit": {
+            "css": {
+                "background-color": "#ffcb01;",
+                "border-color": "#ffb403;",
+                "border-width": "0pt;",
+                "border-style": "solid;",
+                "font-family": "Helvetica, Arial, sans-serif",
+                "font-size": "14pt;",
+                "letter-spacing": "-0.1em;"
+            },
+            "html": "Free Instant Access &raquo;"
+        },
+        "privacy": {
+            "css": {
+                "font-family": "Helvetica, Arial, sans-serif",
+                "font-size": "12pt;",
+                "letter-spacing": "-0.1em;"
+            },
+            "html": "<div><i class=\"icon-lock\"></i>We hate SPAM and promise to keep your email address safe. </div>"
+        }
+    },
+	"elements": [
+		
+        {
+      "id": "site-header",
+      "name": "Header Container",
+      "type": "container"
+        },
+       
+      
+
+
+
+
+        {
+      "id": "heroTitle",
+      "name": "Hero Title",
+      "type": "text"
+        },
+    
+     
+
+
+
+        
+        {
+      "id": "footerLink5",
+      "name": "Footer Link5",
+      "type": "link"
+        },
+
+
+
+
+
+         {
+      "id": "header-bg",
+      "name": "Header Background",
+      "type": "image"
+        },
+           
+
+
+
+
+
+
+        {
+      "id": "section1LeftVideo",
+      "name": "Section 1 Video",
+      "type": "video"
+        }
+
+
+	]
+}
+
+

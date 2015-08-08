@@ -4993,10 +4993,6 @@ p {
 
 /* Site & Header
 ---------------------------------------------------------------------------------------------------- */
-.sectionInner {
-  width: 70%;
-  margin: auto; }
-
 .header {
   padding-top: 20px;
   padding-bottom: 20px; }
@@ -5045,7 +5041,7 @@ p {
   border: 0px;
   padding: .75em 2em .75em 2em;
   background: #B70000;
-  display: inline-block;
+  display: block;
   color: #fffffd !important;
   font-size: 22px;
   font-weight: normal;
@@ -5072,20 +5068,6 @@ p {
 .hero {
   background-color: #F4F5F0; }
 
-.heroInner {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center; }
-
 .heroLeft {
   -webkit-box-ordinal-group: 2;
   -webkit-order: 1;
@@ -5100,15 +5082,11 @@ p {
           order: 2;
   padding: 10px; }
 
-.heroFormWrap {
-  width: 80%;
-  margin: auto; }
-
 .heroFormAboveBtn {
   text-align: center; }
 
 .heroBulletList {
-  padding-top: 10px;
+  padding-top: 20px;
   list-style-type: none; }
 
 .heroBulletList > .heroBullet {
@@ -5201,7 +5179,9 @@ p {
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
-          flex-direction: column; }
+          flex-direction: column;
+  padding-left: 10px;
+  padding-right: 10px; }
 
 /* section2
 ---------------------------------------------------------------------------------------------------- */
@@ -5209,19 +5189,6 @@ p {
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: #F4F5F2; }
-
-.section2TestiWrap {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-wrap: no-wrap;
-      -ms-flex-wrap: no-wrap;
-          flex-wrap: no-wrap;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
 
 .testi > img {
   border-radius: 100%;
@@ -5268,6 +5235,53 @@ p {
   text-align: center; }
 
 /*Style.scss*/
+@media only screen and (min-width: 40.063em) {
+  .headlineInner {
+    width: 90%;
+    margin: auto; }
+
+  .sectionInner {
+    width: 70%;
+    margin: auto; }
+
+  .heroFormWrap {
+    width: 85%;
+    margin: auto; }
+
+  .heroBulletList {
+    padding-top: 10px;
+    padding-left: 20px; }
+
+  .section2TestiWrap {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: no-wrap;
+        -ms-flex-wrap: no-wrap;
+            flex-wrap: no-wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; } }
 /* min-width 641px, medium screens */
+@media only screen and (min-width: 64.063em) {
+  .heroInner {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 80%; }
+
+  .heroLeft, .heroRight {
+    max-width: 50%; } }
 /* min-width 641px, medium screens */
 /* min-width 1441px, xlarge screens */

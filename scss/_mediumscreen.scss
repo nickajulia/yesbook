@@ -2,8 +2,32 @@
 
 // Medium screens
 @media only screen and (min-width: 40.063em) { 
+.headlineInner{
+	width: 90%;
+	margin: auto;
+}
 
 
+.sectionInner{
+  width: 70%;
+  margin:auto;
+}
+
+.heroFormWrap{
+  width: 85%;
+  margin:auto;
+}
+
+.heroBulletList{
+padding-top: 10px;
+padding-left: 20px;
+		}
+		
+.section2TestiWrap{
+  display: flex;
+  flex-wrap:no-wrap;
+  justify-content:center;
+}
 
 
   } /* min-width 641px, medium screens */

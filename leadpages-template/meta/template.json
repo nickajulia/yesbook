@@ -2,9 +2,9 @@
 	"id": "yes book",
 	"name": "yes book", 
 	"mobile": true, 
-	"notes": "version 1.102", 
+	"notes": "version 1.108", 
 	"syntax": 4, 
-	"version": 1.102,
+	"version": 1.108,
 	"style": {
 		"html": "",
 		"replacements": [
@@ -34,6 +34,14 @@
               "name": "section2 Bg ",
               "find": "#F4F5F2"
           },
+        {
+              "type": "color",
+              "name": "Quote separator ",
+              "find": "#d5d5d5"
+          },
+
+
+          
            {
               "type": "color",
               "name": "section3 Bg ",
@@ -314,6 +322,11 @@
       "id": "clipImgLink",
       "name": "play button link",
       "type": "image-link"
+        },
+        {
+      "id": "heroLeftImg",
+      "name": "hero Image",
+      "type": "image"
         },
            
 
